@@ -1,0 +1,15 @@
+<form method="POST" action="?acao=Form&metodo=salvar">
+  <input type="hidden" name="id" value="{id}" />
+  <label>Nome:</label>
+  <input type="text" name="name" value="{name}" required /><br />
+  <label>Email:</label>
+  <input type="text" name="email" value="{email}" required /><br />
+  <label>Data de Nascimento:</label>
+  <input type="text" name="birthdate" value="{birthdate}" required /><br />
+  <h4>Gênero:<h4>
+  <label>Masculino</label>
+  <input type="radio" name="gender" value="Masculino" required /><br />
+  <label>Feminino</label>
+  <input type="radio" name="gender" value="Feminino" required /><br />
+  <button type="submit">Salvar</button>
+</form>
